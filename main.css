@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+   }
+
+li {
+    display:inline;
+}
+
+
+#left{
+    float:left;
+}
+
+#right{
+    float: right;
+}
+
+ul #bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
