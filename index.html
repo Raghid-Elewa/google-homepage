@@ -14,24 +14,28 @@
 <body>
   <header>
     <nav>
-        <ul>
+        <ul id="top">
             <li id="left">About</li>
             <li id="left">Source</li>
-            <li id="right">Gmail</li>
-            <li id="right">Images</li>
-            <li id="right"><a href="#blank"><img src=""></a></li>
+            
             <li id="right"><button>Sign in</button></li>
+            <li id="right" class="icon-image"><a href="#blank"><img src="menuicon.png"></a></li>
+            <li id="right">Images</li>
+            <li id="right">Gmail</li>
         </ul>
     </nav> 
   </header>
 
   <main>
-    <div id="body">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <input type="text">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+    <div class="container">
+        <img id="item item-1" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <input class="search" placeholder="" type="text" >
     </div>
+    <div class="container-2">
+      <button class="button" id="item item-3" >Google Search</button>
+      <button class="button" id="item item-3" >I'm Feeling Lucky</button>  
+    </div>
+   
   </main>
 
   <footer>
